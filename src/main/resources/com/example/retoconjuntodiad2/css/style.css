@@ -1,0 +1,11 @@
+#rootLogin{
+    -fx-background-image: url(../img/movies.jpg);
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+#rootMain{
+    -fx-background-image: url(../img/cinemas.jpg);
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
