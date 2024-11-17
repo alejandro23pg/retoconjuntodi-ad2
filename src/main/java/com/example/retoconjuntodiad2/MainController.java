@@ -60,4 +60,9 @@ public class MainController implements Initializable {
     public void cerrarApp(ActionEvent actionEvent) {
         System.exit(0);
     }
+
+    @FXML
+    public void addCopie(ActionEvent actionEvent) {
+        HelloApplication.loadFXML("addCopie-view.fxml", "Nueva copia");
+    }
 }

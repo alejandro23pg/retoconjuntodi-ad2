@@ -31,7 +31,7 @@
                         <Insets bottom="10.0" />
                      </padding>
                   </Label>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Añadir copia" />
+                  <Button mnemonicParsing="false" onAction="#addCopie" prefHeight="25.0" prefWidth="85.0" text="Añadir copia" />
                </children>
             </FlowPane>
             <TableView fx:id="tableCopies">
