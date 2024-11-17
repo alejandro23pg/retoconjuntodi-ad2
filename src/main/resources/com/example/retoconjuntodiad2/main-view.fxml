@@ -18,17 +18,22 @@
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </BorderPane.margin>
          <children>
-            <Label text="Colección" textFill="WHITE">
-               <font>
-                  <Font name="Broadway" size="30.0" />
-               </font>
-               <opaqueInsets>
-                  <Insets />
-               </opaqueInsets>
-               <padding>
-                  <Insets bottom="10.0" />
-               </padding>
-            </Label>
+            <FlowPane hgap="200.0">
+               <children>
+                  <Label text="Colección" textFill="WHITE">
+                     <font>
+                        <Font name="Broadway" size="30.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Añadir copia" />
+               </children>
+            </FlowPane>
             <TableView fx:id="tableCopies">
               <columns>
                 <TableColumn fx:id="cTitulo" prefWidth="75.0" text="Título" />
