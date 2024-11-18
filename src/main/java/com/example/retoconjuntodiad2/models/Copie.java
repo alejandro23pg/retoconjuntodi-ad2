@@ -3,12 +3,10 @@ package com.example.retoconjuntodiad2.models;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.io.Serializable;
-
 @Data
 @Entity
 @Table(name = "copias")
-public class Copie implements Serializable {
+public class Copie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

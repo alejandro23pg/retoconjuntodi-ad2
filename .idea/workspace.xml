@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="899f212e-77c1-4982-b08d-9154c6e0f6c1" name="Changes" comment="Commit 5" />
+    <list default="true" id="899f212e-77c1-4982-b08d-9154c6e0f6c1" name="Changes" comment="Commit 6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/ShowcaseTapesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/ShowcaseTapesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/dao/CopieDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/dao/DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/dao/MovieDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/Copie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/Copie.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +76,7 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.example.retoconjuntodiad2.HelloApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.example.retoconjuntodiad2.ShowcaseTapesApplication" />
       <module name="RetoConjuntoDI-AD2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,7 +93,7 @@
       <updated>1731657874275</updated>
       <workItem from="1731657875297" duration="11863000" />
       <workItem from="1731848758927" duration="21504000" />
-      <workItem from="1731956669234" duration="8913000" />
+      <workItem from="1731956669234" duration="10670000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <option name="closed" value="true" />
@@ -126,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731965640217</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 6">
+      <option name="closed" value="true" />
+      <created>1731965825276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965825276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +166,7 @@
     <MESSAGE value="Commit 3" />
     <MESSAGE value="Commit 4" />
     <MESSAGE value="Commit 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 5" />
+    <MESSAGE value="Commit 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 6" />
   </component>
 </project>
