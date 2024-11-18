@@ -35,6 +35,7 @@ public class HelloApplication extends Application {
         ventana.setTitle(title);
         ventana.setScene(scene);
         ventana.setResizable(false);
+        // ventana.setFullScreen(true);
     }
 
     public static void main(String[] args) {

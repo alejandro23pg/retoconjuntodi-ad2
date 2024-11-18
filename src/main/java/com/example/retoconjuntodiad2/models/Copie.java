@@ -1,16 +1,39 @@
 package com.example.retoconjuntodiad2.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import jakarta.persistence.*;
+import lombok.*;
 
 import java.io.Serializable;
 
 @Data
-@AllArgsConstructor
+@Entity
+@Table(name = "copias")
 public class Copie implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private Integer id_pelicula;
-    private Integer id_usuario;
+
+    @Column(name = "id_pelicula")
+    private Integer idPelicula;
+
+    private Integer idUsuario;
+
     private String estado;
+
     private String soporte;
+
+    @ManyToOne
+    @JoinColumn(name = "id_usuario")
+    private User usuario;
+
+    @Override
+    public String toString() {
+        return "Copie{" +
+                "id=" + id +
+                ", idPelicula=" + idPelicula +
+                ", estado='" + estado + '\'' +
+                ", soporte='" + soporte + '\'' +
+                ", usuario=" + usuario.getNombre() +
+                '}';
+    }
 }

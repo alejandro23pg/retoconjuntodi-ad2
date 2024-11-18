@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane id="rootLogin" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.retoconjuntodiad2.LoginController">
+<BorderPane id="rootLogin" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.retoconjuntodiad2.controllers.LoginController">
    <center>
       <VBox alignment="CENTER" spacing="20.0">
           <padding>

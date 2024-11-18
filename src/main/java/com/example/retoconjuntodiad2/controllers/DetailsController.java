@@ -1,4 +1,4 @@
-package com.example.retoconjuntodiad2;
+package com.example.retoconjuntodiad2.controllers;
 
 import javafx.fxml.Initializable;
 

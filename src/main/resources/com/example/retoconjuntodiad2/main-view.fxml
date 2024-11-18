@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<BorderPane id="rootMain" prefHeight="374.0" prefWidth="509.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.retoconjuntodiad2.MainController">
+<BorderPane id="rootMain" prefHeight="374.0" prefWidth="509.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.retoconjuntodiad2.controllers.MainController">
    <center>
       <VBox maxWidth="454.0">
          <BorderPane.margin>

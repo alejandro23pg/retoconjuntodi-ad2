@@ -9,3 +9,9 @@
     -fx-background-position: center center;
     -fx-background-size: cover;
 }
+
+#rootAddCopie{
+    -fx-background-image: url(../img/copies.jpg);
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}

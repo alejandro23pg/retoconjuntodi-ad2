@@ -1,5 +1,6 @@
-package com.example.retoconjuntodiad2;
+package com.example.retoconjuntodiad2.controllers;
 
+import com.example.retoconjuntodiad2.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -37,7 +38,7 @@ public class LoginController implements Initializable {
         String textoSesion = (cbSesion.isSelected()) ? "(Mantener sesión)":"(No mantener sesión)";
 
         if ( txtUsuario.getText().equals(USER) && txtPassword.getText().equals(PASSWORD) ) {
-            HelloApplication.loadFXML("main-view.fxml", "Listado de Copias - " + txtUsuario.getText() + " " + textoSesion);
+            HelloApplication.loadFXML("main-view.fxml", "Listado de Copias"/* - " + txtUsuario.getText() + " " + textoSesion*/);
         } else {
             txtInfo.setText("Usuario o contraseña incorrecto");
             txtInfo.setStyle("-fx-background-color: red; -fx-text-fill: white");
