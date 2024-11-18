@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="899f212e-77c1-4982-b08d-9154c6e0f6c1" name="Changes" comment="Commit 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/dto/CopieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/retoconjuntodiad2/img/camera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/retoconjuntodiad2/img/copies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/AddCopieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/AddCopieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/Copie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/retoconjuntodiad2/models/Copie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/retoconjuntodiad2/addCopie-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/retoconjuntodiad2/addCopie-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/retoconjuntodiad2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/retoconjuntodiad2/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="899f212e-77c1-4982-b08d-9154c6e0f6c1" name="Changes" comment="Commit 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +15,8 @@
       <list>
         <option value="CSS File" />
         <option value="FxmlFile" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -100,7 +84,7 @@
       <updated>1731657874275</updated>
       <workItem from="1731657875297" duration="11863000" />
       <workItem from="1731848758927" duration="21504000" />
-      <workItem from="1731956669234" duration="6649000" />
+      <workItem from="1731956669234" duration="8913000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <option name="closed" value="true" />
@@ -126,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731884697662</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 4">
+      <option name="closed" value="true" />
+      <created>1731963805299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731963805299</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit 5">
+      <option name="closed" value="true" />
+      <created>1731965640217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965640217</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +147,8 @@
     <MESSAGE value="Commit 1" />
     <MESSAGE value="Commit 2" />
     <MESSAGE value="Commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 3" />
+    <MESSAGE value="Commit 4" />
+    <MESSAGE value="Commit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 5" />
   </component>
 </project>

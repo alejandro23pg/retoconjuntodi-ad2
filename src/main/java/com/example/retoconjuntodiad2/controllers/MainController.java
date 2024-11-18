@@ -1,9 +1,7 @@
 package com.example.retoconjuntodiad2.controllers;
 
-import com.example.retoconjuntodiad2.HelloApplication;
-import com.example.retoconjuntodiad2.models.Copie;
+import com.example.retoconjuntodiad2.ShowcaseTapesApplication;
 import com.example.retoconjuntodiad2.models.dto.CopieDTO;
-import javafx.beans.property.SimpleStringProperty;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -44,7 +42,7 @@ public class MainController implements Initializable {
 
     @javafx.fxml.FXML
     public void logout(ActionEvent actionEvent) {
-        HelloApplication.loadFXML("login-view.fxml", "ShowcaseTapes");
+        ShowcaseTapesApplication.loadFXML("login-view.fxml", "ShowcaseTapes");
     }
 
     @javafx.fxml.FXML
@@ -54,6 +52,6 @@ public class MainController implements Initializable {
 
     @FXML
     public void addCopie(ActionEvent actionEvent) {
-        HelloApplication.loadFXML("addCopie-view.fxml", "Nueva copia");
+        ShowcaseTapesApplication.loadFXML("addCopie-view.fxml", "Nueva copia");
     }
 }

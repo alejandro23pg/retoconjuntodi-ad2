@@ -1,6 +1,6 @@
 package com.example.retoconjuntodiad2.controllers;
 
-import com.example.retoconjuntodiad2.HelloApplication;
+import com.example.retoconjuntodiad2.ShowcaseTapesApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -20,6 +20,6 @@ public class AddCopieController implements Initializable {
 
     @FXML
     public void back(ActionEvent actionEvent) {
-        HelloApplication.loadFXML("main-view.fxml", "Listado de Copias");
+        ShowcaseTapesApplication.loadFXML("main-view.fxml", "Listado de Copias");
     }
 }
